@@ -30,6 +30,10 @@
       {
         addComment(comment){
           this.comments.push(comment)
+        },
+        removeComment(index)
+        {
+          this.comments.splice(index, 1)
         }
       },
       watch:{
